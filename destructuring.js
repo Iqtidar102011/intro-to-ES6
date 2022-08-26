@@ -28,3 +28,10 @@ function getNames() {
 const [father, son] = getNames();
 console.log(son, father);
 
+
+// rest
+
+const { x, y, ...c } = { x: 45, y: 33, z: 45, p: 12, q: 14, r: 16 };
+
+console.log(c);
+
